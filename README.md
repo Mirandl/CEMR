@@ -3,6 +3,7 @@ Cross Domain Estimation on Human Mesh Reconstruction
 
 ## Description
 We focus on reconstructing human mesh from Cross-domain videos. In our experiments, we train a source model (termed as *BaseModel*) on Human 3.6M. To produce accurate human mesh on Cross-domain videos, we optimize the BaseModel on target videos via CEMR at test time. 
+
 ---
 ## Get Started
 
@@ -47,7 +48,7 @@ Download Human 3.6M using this [tool](https://github.com/kotaro-inoue/human3.6m_
 ```
 python process_data.py --dataset h36m
 ```
-You can process Human3.6M dataset using this [tool](https://github.com/kotaro-inoue/human3.6m_downloader)
+You can process Human3.6M dataset using this [tool](https://github.com/CHUNYUWANG/H36M-Toolbox)
 
 ---
 ## Running on the 3DPW
@@ -65,8 +66,6 @@ bash run_on_3dpw.sh
 | [PARE](https://github.com/mkocabas/PARE)                     |   #PS    |   46.4   |   79.1   |   94.2   |
 | [Mesh Graphormer](https://github.com/microsoft/MeshGraphormer) |   #PS    |   45.6   |   74.7   |   87.7   |
 | CEMR (Ours)                                               |   #PS    | **40.9** | **65.8** | **82.6** |
-
-<img src="assets/qualitative_res1.png" alt="qualitative results" style="zoom:50%;" />
 
 
 ## Acknowledgement
