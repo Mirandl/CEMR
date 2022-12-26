@@ -1,16 +1,4 @@
-# DynaBOA
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/out-of-domain-human-mesh-reconstruction-via/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=out-of-domain-human-mesh-reconstruction-via)
-
-Code repository for the paper:
-
-**Out-of-Domain Human Mesh Reconstruction via Dynamic Bilevel Online Adaptation**
-
-Shanyan Guan, Jingwei Xu, Michelle Z. He, Yunbo Wang<sup>†</sup>, Bingbing Ni, Xiaokang Yang
-
-[[Paper]](https://arxiv.org/abs/2111.04017) [[Project Page]](https://sites.google.com/view/dynaboa)
-
-
+# CHMR
 
 ## New feature: support web camera
 <p float="center">
